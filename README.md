@@ -1,48 +1,34 @@
-🚀 Features
-Read data from a file (text.txt) or input from the keyboard
+👤: Bạn có thể tải về để trải nghiệm Project của tôi 1 cách tốt nhất !! ^.^
+# 🔢 Mô phỏng các thuật toán sắp xếp bằng đồ họa C
+## 👨‍💻 Tác giả
 
-Generate random data
+- 🧑 Họ tên: *ThienTung204*
+- 💻 Môn học: *Kỹ thuật đồ họa / Thuật toán sắp xếp*
 
-Supports 4 sorting algorithms:
 
-        Selection Sort
-        
-        Bubble Sort
-        
-        Insertion Sort
-        
-        Quick Sort (pivot selected from the middle)
+## 📌 Ghi chú
 
-Simple and intuitive graphical interface
+- Chuột trái để tương tác với giao diện.
+- Chuột phải để thoát chương trình.
 
-Shuffle array to retry with different order
+# Công nghệ sử dụng : 
+**Ngôn ngữ lập trình:** C
 
-🛠️ Installation & Running
-Requirements:
+**Thư viện đồ họa:** 'graphics.h'
 
-A compiler that supports graphics.h, such as Turbo C++, WinBGIm with Dev C++, or using DOSBox
+## 🧠 Các thuật toán được mô phỏng
 
-Operating System: Windows
+- **Selection Sort:** Lựa chọn phần tử nhỏ nhất và đổi chỗ.
+- **Bubble Sort:** So sánh cặp phần tử liên tiếp và hoán đổi nếu sai thứ tự.
+- **Insertion Sort:** Chèn phần tử vào đúng vị trí trong mảng đã sắp.
+- **Quick Sort:** Chọn pivot (ở giữa), chia để trị và sắp xếp đệ quy.
 
-How to Run:
+## 📸 Hình ảnh minh họa
+![image](https://github.com/user-attachments/assets/3fc38886-b53d-495e-a342-8781e2fb35e3)
+![image](https://github.com/user-attachments/assets/948f9f1e-87fb-4cf0-a8dc-08cca17a9091)
+![image](https://github.com/user-attachments/assets/d41b89e3-eab2-4e3a-bfea-b494c5f088f3)
 
-  Make sure the graphics.h library is correctly installed
-  
-  Place text.txt in the same directory as the executable
-  
-  Compile and run the program
-  
-  Use the mouse to interact with the interface:
+![image](https://github.com/user-attachments/assets/e5dae943-b174-4eb3-8227-4f26534d20d8)
+![image](https://github.com/user-attachments/assets/87b428f8-58c9-4cb8-ab53-0452c8ce9a36)
 
-        Read File: Load array from file
-        
-        Try Again: Clear and redraw the canvas
-        
-        Key Board: Input array manually
-        
-        Random: Generate a random array
-        
-        Shuffle: Randomly shuffle the array
-
-  Choose one of the 4 sorting algorithms to visualize the process
 
