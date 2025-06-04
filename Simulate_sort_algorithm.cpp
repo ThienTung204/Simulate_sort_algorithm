@@ -7,7 +7,7 @@
 #define INPUT "text.txt"
 
 #define Y 4
-//Hàm
+//HÃ m
 void readfile();
 void INPoint(struct toado m[MAX],int size);
 void vekhung();
@@ -72,23 +72,23 @@ void vekhung(){
 
   
      setcolor(10);
- rectangle(75, 640, 275, 700);  // Nút "Read File"
+ rectangle(75, 640, 275, 700);  // NÃºt "Read File"
     settextstyle(2, 0, 9);
     outtextxy(95, 655, "Read File");
 
-    rectangle(425, 640, 625, 700);  // Nút "Try Again"
+    rectangle(425, 640, 625, 700);  // NÃºt "Try Again"
     settextstyle(2, 0, 9);
     outtextxy(440, 655, "Try Again");
 
-    rectangle(775, 640, 975, 700);  // Nút "Key Board"
+    rectangle(775, 640, 975, 700);  // NÃºt "Key Board"
     settextstyle(2, 0, 9);
     outtextxy(785, 655, "Key Board");
 
-    rectangle(1125, 640, 1325, 700);  // Nút "Random"
+    rectangle(1125, 640, 1325, 700);  // NÃºt "Random"
     settextstyle(2, 0, 9);
     outtextxy(1145, 655, "Random");
 	setcolor(13);
-    // Các l?a ch?n s?p x?p
+    // CÃ¡c l?a ch?n s?p x?p
     rectangle(75, 740, 275, 800);
     settextstyle(2, 0, 9);
     outtextxy(95, 752, "Selection");
@@ -192,7 +192,7 @@ if (x >= 75 && x <= 275 && y >= 640 && y <= 700) {
             if(x >= 1125 && x <= 1325 && y >= 740 && y <= 800){
                 printf("Quick sort\n");
                 enable_click = 0;
-                setcolor(4);  // Màu d? cho l?a ch?n
+                setcolor(4);  // MÃ u d? cho l?a ch?n
                 rectangle(1125, 740, 1325, 800);
                 settextstyle(2, 0, 9);
                 outtextxy(1170, 752, "Quick");
@@ -218,7 +218,7 @@ if (x >= 75 && x <= 275 && y >= 640 && y <= 700) {
         delay(100); 
     }
 }
-//hàm tron
+//hÃ m tron
 void shuffle(struct toado point[MAX], int size) {
     srand(time(NULL));
     for (int i = size - 1; i > 0; i--) {
